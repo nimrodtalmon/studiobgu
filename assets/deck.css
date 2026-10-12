@@ -143,6 +143,14 @@ p { font-size: 44px; line-height: 1.35; }
 .axis::before { content: ""; order: 1; flex: 1; height: 6px; border-radius: 3px; background: linear-gradient(to left, var(--gray-light), var(--orange)); }
 .axis span:last-child { order: 2; }
 
+/* QR code card */
+.qr { flex: none; align-self: center; display: flex; flex-direction: column; align-items: center; gap: 12px;
+  background: #fff; color: var(--dark); border-radius: 20px; padding: 28px; }
+.qr img { width: 420px; height: 420px; display: block; }
+.qr span { font-size: 26px; font-weight: 700; }
+.slide.split { flex-direction: row; align-items: center; gap: 96px; }
+.slide.split > .col { flex: 1; display: flex; flex-direction: column; gap: 36px; }
+
 a { color: inherit; text-decoration-color: var(--orange); text-underline-offset: 8px; }
 
 /* chrome: progress + counter, hidden in print */
