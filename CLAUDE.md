@@ -5,7 +5,7 @@ Slide decks for the mandatory MSc course "סטודיו למחקר", served by Gi
 
 ## Layout
 - `index.html` — course page, links to the decks.
-- `NN.html` — one deck per session (03 = מאמרים). Plain HTML, no build step.
+- `NN.html` — one deck per session (03 = בינה מלאכותית, 04 = מאמרים). Plain HTML, no build step.
 - `assets/deck.css`, `assets/deck.js` — shared slide engine (1920×1080 canvas scaled to the window, RTL).
 - `assets/img/` — images used by the decks.
 
