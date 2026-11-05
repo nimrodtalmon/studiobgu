@@ -11,6 +11,10 @@
 <style>
   .pill { width: 220px; height: 84px; border-radius: 999px; display: flex; overflow: hidden; border: 3px solid currentColor; }
   .pill i { flex: 1; } .pill i + i { border-right: 3px solid currentColor; }
+  .mxrow { display:flex; align-items:center; gap:40px; margin-block:auto; }
+  .mxrow b { font-size:96px; font-weight:800; }
+  .mx { display:grid; grid-template-columns:repeat(3,90px); gap:8px; }
+  .mx i { width:90px; height:90px; border-radius:10px; border:2px solid #B9BCC1; }
 </style>
 </head>
 <body>
@@ -45,15 +49,8 @@
 
 <!-- 1b -->
 <section class="slide light center">
-  <h1><a href="https://bgulab.onrender.com/" target="_blank">המעבדה</a></h1>
+  <h1><a href="https://talmonlab.bgu.ac.il/lab/" target="_blank">המעבדה</a></h1>
   <p class="muted big">איך בני אדם וסוכני AI מחליטים טוב יותר ביחד?</p>
-</section>
-
-<!-- 2 -->
-<section class="slide dark center">
-  <p class="ltr" style="font-size:80px;font-weight:300;line-height:1.3">“I propose to consider the question,<br><span class="hl">‘Can machines think?’</span>”</p>
-  <p class="muted small"><span class="ltr">Turing, 1950</span></p>
-  <p>75 שנה אחרי, השאלה כבר קצת אחרת 🙂</p>
 </section>
 
 <!-- 3 -->
@@ -70,11 +67,11 @@
 <section class="slide dark split">
   <div class="col">
     <p class="eyebrow">מה אני עושה</p>
-    <h1><a href="https://bgulab.onrender.com/" target="_blank">האתר</a> של המעבדה</h1>
+    <h1><a href="https://talmonlab.bgu.ac.il/lab/" target="_blank">האתר</a> של המעבדה</h1>
     <p>נכתב ומתוחזק על ידי AI</p>
     <p class="muted">כל חברי המעבדה מנווטים אותו, דרך כפתור אחד</p>
   </div>
-  <div class="qr"><img src="assets/img/qr-bgulab.svg" alt="QR: bgulab.onrender.com"><span>bgulab.onrender.com</span></div>
+  <div class="qr"><img src="assets/img/qr-talmonlab.svg" alt="QR: talmonlab.bgu.ac.il/lab"><span>talmonlab.bgu.ac.il/lab</span></div>
 </section>
 
 <!-- 4a -->
@@ -109,17 +106,23 @@
     <div class="step"><b>מאמר</b><span>ב-Overleaf</span></div>
   </div>
   <p>סוכנים שכותבים מאמר, כל שעה עוד צעד, בלי מגע יד אדם</p>
-  <p class="muted">ואני? קובע את הכללים, ובודק מה יצא</p>
 </section>
 
 <!-- 6 -->
 <section class="slide light center">
   <p class="eyebrow">וגם</p>
   <h1>המצגת הזאת 🙂</h1>
-  <p class="muted big">אתר שנכתב עם AI, ואני רק אומר מה לשנות</p>
+  <p class="muted big">נכתבה כולה עם AI</p>
 </section>
 
 <!-- ============ AI כבר כאן ============ -->
+
+<!-- 2 -->
+<section class="slide dark center">
+  <p class="ltr" style="font-size:80px;font-weight:300;line-height:1.3">“I propose to consider the question,<br><span class="hl">‘Can machines think?’</span>”</p>
+  <p class="muted small"><span class="ltr">Turing, 1950</span></p>
+  <p>75 שנה אחרי, השאלה כבר קצת אחרת 🙂</p>
+</section>
 
 <!-- 6x: then -->
 <section class="slide light split">
@@ -127,16 +130,10 @@
     <p class="eyebrow ltr" style="text-align:right">2014</p>
     <h1 class="q">ציפור בתמונה?</h1>
     <p class="big muted">"צוות מחקר וחמש שנים"</p>
+    <p class="hl big">היום: כל צ'אט, בשנייה</p>
   </div>
   <div class="shot"><img src="assets/img/xkcd-tasks.png" alt="xkcd: Tasks" style="height:780px;width:auto"></div>
   <p class="ref"><span class="ltr">xkcd 1425, Tasks, 2014</span></p>
-</section>
-
-<!-- 6y: now -->
-<section class="slide accent center">
-  <p class="eyebrow ltr" style="text-align:right">2026</p>
-  <h1 class="huge">נסו עכשיו, בטלפון 🙂</h1>
-  <p class="big">תמונה של ציפור, וצ'אט אחד</p>
 </section>
 
 <!-- 6a -->
@@ -148,6 +145,7 @@
 <!-- 7 -->
 <section class="slide dark">
   <h2>AI כבר כאן</h2>
+  <p class="muted small"><span class="ltr">AGI</span>: AI ברמה של אדם, כמעט בכל משימה · <span class="ltr">ASI</span>: AI שעולה על בני אדם, כמעט בכל תחום</p>
   <div class="cards">
     <div class="card top"><div class="pill" style="color:#F7941D"><i style="background:#F7941D"></i><i></i></div><h3 class="ltr" style="text-align:right">AI-pilled</h3><p>יודעים מה AI יכול היום, ופועלים בהתאם</p></div>
     <div class="card top"><div class="pill" style="color:#B9BCC1"><i style="background:#B9BCC1"></i><i></i></div><h3 class="ltr" style="text-align:right">AGI-pilled</h3><p>מצפים ל-AGI, ופועלים בהתאם</p></div>
@@ -210,12 +208,49 @@
   <img class="deco sm" src="assets/img/deco-bulb-dark.svg" alt="">
 </section>
 
+<!-- 8d0: matrix multiplication, question -->
+<section class="slide light" style="align-items:center">
+  <h2 style="align-self:stretch">1. כפל מטריצות</h2>
+  <div class="mxrow ltr"><div class="mx"><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i><i style="background:#F7941D"></i><i style="background:#F7941D"></i><i style="background:#F7941D"></i><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i></div><b>×</b><div class="mx"><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i><i style="background:#F7941D"></i><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i><i style="background:#F7941D"></i><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i><i style="background:#F7941D"></i></div><b>=</b><div class="mx"><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i><i style="background:#26282C"></i><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i><i style="background:#FDFDFB"></i></div></div>
+  <p class="muted">כל תא: שורה כפול עמודה</p>
+  <p class="hl big">כמה פעולות לכפול שתי מטריצות <span class="ltr">n×n</span>?</p>
+</section>
+
+<!-- 8d1: answer -->
+<section class="slide dark">
+  <h2>1. כפל מטריצות</h2>
+  <div class="rows ruled">
+    <div class="row"><p class="k">הדרך הרגילה</p><p><span class="ltr">n²</span> תאים, <span class="ltr">n</span> פעולות לכל תא: <span class="ltr">n³</span></p></div>
+    <div class="row"><p class="k ltr" style="text-align:right">1969</p><p><span class="ltr">Strassen</span>: בערך <span class="ltr">n<sup>2.81</sup></span></p></div>
+    <div class="row"><p class="k">השאלה</p><p class="hl">מה החזקה הכי קטנה?</p></div>
+  </div>
+  <p class="ref"><span class="ltr">Strassen, 1969</span></p>
+</section>
+
 <!-- 8d -->
 <section class="slide light" style="align-items:center">
   <h2 style="align-self:stretch">1. כפל מטריצות</h2>
   <div class="shot"><img src="assets/img/ai2-omega.svg" alt="השיא הידוע לאורך השנים, עם ירידה חדה ל-2.25 באוקטובר 2026" style="width:1000px;height:516px"></div>
-  <p>השיא ירד מ-<span class="ltr">2.37</span> ל-<span class="ltr">2.25</span>, במאמר שכתב מודל של <span class="ltr">OpenAI</span></p>
+  <p>החזקה הכי טובה ירדה מ-<span class="ltr">2.37</span> ל-<span class="ltr">2.25</span>, במאמר שכתב מודל של <span class="ltr">OpenAI</span></p>
   <p class="ref"><span class="ltr">OpenAI, An Upper Bound of 9/4 for the Matrix Multiplication Exponent, 2026</span></p>
+</section>
+
+<!-- 8e0: integer multiplication, question -->
+<section class="slide light center">
+  <h2>2. כפל מספרים</h2>
+  <p class="ltr" style="font-size:160px;font-weight:800;text-align:center;margin-block:24px">1234 × 5678</p>
+  <p class="hl big">כמה פעולות לכפול שני מספרים עם <span class="ltr">n</span> ספרות?</p>
+</section>
+
+<!-- 8e1: answer -->
+<section class="slide dark">
+  <h2>2. כפל מספרים</h2>
+  <div class="rows ruled">
+    <div class="row"><p class="k">בבית הספר</p><p>כל ספרה עם כל ספרה: <span class="ltr">n²</span></p></div>
+    <div class="row"><p class="k ltr" style="text-align:right">1962</p><p><span class="ltr">Karatsuba</span>: בערך <span class="ltr">n<sup>1.58</sup></span></p></div>
+    <div class="row"><p class="k">השאלה</p><p class="hl">כמה מהר אפשר?</p></div>
+  </div>
+  <p class="ref"><span class="ltr">Karatsuba, 1962</span></p>
 </section>
 
 <!-- 8e -->
@@ -232,8 +267,9 @@
 <!-- 8f -->
 <section class="slide light" style="align-items:center">
   <h2 style="align-self:stretch">ואז, שלושה ימים</h2>
-  <div class="shot"><img src="assets/img/ai2-intmul-kappa-crop.jpg" alt="השיפור לאורך שלושה ימים" style="width:920px;height:420px"></div>
-  <p>מאות אנשים, עם <span class="ltr">Codex</span> ו-<span class="ltr">Claude</span>, שיפרו את ה"קצת" מ-<span class="ltr">10⁻⁵⁵</span> ל-<span class="ltr">10⁻³</span></p>
+  <p class="muted" style="align-self:stretch">הזמן החדש: <span class="ltr">n·(log n)<sup>1−κ</sup></span>, כלומר <span class="ltr">κ</span> = כמה ירדנו מתחת ל-<span class="ltr">n log n</span></p>
+  <div class="shot"><img src="assets/img/ai2-intmul-kappa-crop.jpg" alt="השיפור לאורך שלושה ימים" style="width:750px;height:342px"></div>
+  <p>מאות אנשים, עם <span class="ltr">Codex</span> ו-<span class="ltr">Claude</span>, שיפרו את <span class="ltr">κ</span> מ-<span class="ltr">10⁻⁵⁵</span> ל-<span class="ltr">10⁻³</span></p>
   <p class="muted small">בהנחה שהמאמר המקורי נכון; עוד לא עבר שיפוט</p>
   <p class="ref"><span class="ltr">Koutecký, 2026 · CrocSwap/integer-mult-bounds</span></p>
 </section>
@@ -320,7 +356,7 @@
 <!-- 13b: draw a bicycle -->
 <section class="slide accent center">
   <p class="eyebrow">תרגיל · 30 שניות</p>
-  <h1 class="huge">ציירו אופניים 🚲</h1>
+  <h1 class="huge">ציירו אופניים</h1>
   <p class="big">מהזיכרון, בלי להציץ</p>
 </section>
 
